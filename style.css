@@ -1,0 +1,70 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffe4e1; /* Fundo rosinha */
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #6b5b95; /* Roxo */
+    margin-bottom: 10px;
+}
+
+.intro {
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.photo {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 10px 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+}
+
+.photo:hover {
+    transform: scale(1.05);
+}
+
+.caption {
+    text-align: center;
+    color: #555;
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+
+h2 {
+    margin-top: 30px;
+    color: #6b5b95; /* Roxo */
+    border-bottom: 2px solid #6b5b95; /* Roxo */
+    padding-bottom: 5px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #888;
+}
